@@ -18,4 +18,4 @@ odds = [num for num in numbers if num % 2 != 0]         # [1, 3, 5]
 # Nested List Comprehension
 
 lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-[[print(val) for val in list] for list in lists]        # 1, 2, 3, 4, 5, 6, 7, 8, 9
+[[print(val) for val in l] for l in lists]        # 1, 2, 3, 4, 5, 6, 7, 8, 9
