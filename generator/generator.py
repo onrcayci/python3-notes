@@ -10,3 +10,9 @@ Generator functions also has the ability to keep track of its most recent state.
 
 This is also a quick way of creating an iterator.
 """
+
+def example(number):
+    count = 0
+    while count < number:
+        yield count
+        count += 1
